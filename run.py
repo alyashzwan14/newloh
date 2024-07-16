@@ -29,7 +29,7 @@ APP_URL = os.environ.get("APP_URL")
 PORT = int(os.environ.get('PORT', '8443'))
 
 # Allowed MT4 Account Number
-4835673 = os.environ.get("ALLOWED_MT4_ACCOUNT_NUMBER")
+ALLOWED_MT4_ACCOUNT_NUMBER = os.environ.get("4835673")
 
 # Enables logging
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
